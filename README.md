@@ -49,10 +49,17 @@ zenml stack register local_bentoml_stack \
 Our standard training pipeline consists of several steps:
 
 ingest: Ingests the data from the databas into the ZenML repository.
+
 categorical_encoder: Encodes the categorical features of the dataset.
+
 feature_engineer: Create new features from the existing features.
+
 split: Splits the dataset into train and eval splits.
+
 train: Trains the model on the training split.
+
 evaluate: Evaluates the model on the eval split.
+
 decision:
+
 deploy: Deploys the model to a BentoML endpoint.
