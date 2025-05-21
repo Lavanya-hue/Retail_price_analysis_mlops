@@ -55,4 +55,4 @@ split: Splits the dataset into train and eval splits.
 train: Trains the model on the training split.
 evaluate: Evaluates the model on the eval split.
 decision:
-deploy: Deploys the model to a BentoML endpoi
+deploy: Deploys the model to a BentoML endpoint.
