@@ -44,7 +44,8 @@ zenml stack register local_bentoml_stack \
   -d bentoml_deployer \
   -e mlflow_tracker
   --set
-🚀 Training Pipeline
+
+## 🚀 Training Pipeline
 Our standard training pipeline consists of several steps:
 
 ingest: Ingests the data from the databas into the ZenML repository.
