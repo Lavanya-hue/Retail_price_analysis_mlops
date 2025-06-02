@@ -5,9 +5,7 @@ logger = get_logger(__name__)
 from typing import List, Tuple
 
 import pandas as pd
-from typing_extensions import (
-    Annotated,  # or `from typing import Annotated on Python 3.9+
-)
+from typing_extensions import Annotated
 from zenml import step
 
 from steps.src.model_building import DataSplitter
